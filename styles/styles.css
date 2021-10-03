@@ -81,6 +81,7 @@ tr:nth-child(even) {
 .table-layout{
   border: 2px solid black;
   table-layout: auto;
+  position: relative;
 }
 
 
@@ -93,4 +94,8 @@ tr:nth-child(even) {
   left: 0;
   right: 0;
   margin: auto;
+}
+
+.head-title{
+  position: relative;
 }
