@@ -1,5 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: "https://deadkiller86.github.io/assets/india-flag.png";
+  background-attachment: fixed;
 }
 
 .navbar {
@@ -98,4 +100,22 @@ tr:nth-child(even) {
 
 .head-title{
   position: relative;
+}
+
+.center{
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(142, 241, 248);
+  background-color: rgb(142, 241, 248);
+  padding: 10px;
+  font-size: xx-large;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.current-page{
+  border: 3px snow;
+  padding: auto;
+  font-size: larger;
+  text-align: center;
 }
